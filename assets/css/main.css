@@ -1,3 +1,85 @@
-body{
+html{
+    font-size: 16px;
+}
+
+.navbar {padding: 0}
+
+.nav-link{
+    color: #000
+}
+
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus{
+    color: gray
+}
+
+
+.heading-xxl {
+    font-size: 44px;
+}
+
+.btn-danger{
+    background: #FF6464;    
+    border-color: #FF6464;
+    border-radius: 2px;
+}
+
+.home-section{
+    padding-top: 140px;
+    padding-bottom: 71px;
+}
+
+
+.recent-post-section{
+    background-color: #EDF7FA;
+    padding: 32px 0;
+}
+
+
+.heading-section{
+    font-size: 22px;
+    color: #21243D;
+}
+
+
+.recent-post-section .card{
+    border: 0;
+}
+
+.recent-post-section .card-body{
+    padding: 24px;
+}
+
+.recent-post-section .card-title{
+    color: #21243D;
+    font-size: 26px;
     
 }
+
+
+.feature-section{
+    padding-top: 30px;
+}
+
+.card-feature{
+    border:0;
+}
+
+.card-feature .card-title{
+    color: #21243D;
+    font-size: 30px;
+}
+
+.card-labels {
+    margin-top: 25px;
+}
+
+.card-labels .badge{
+    background-color: #142850;
+    border-radius: 16px;
+    font-size: 18px;
+}
+
+/*
+label-text */
